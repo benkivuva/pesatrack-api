@@ -1,0 +1,55 @@
+# Ignore virtual environment folders (if you're using a virtual environment)
+venv/
+.env/
+
+# Ignore database files (SQLite, PostgreSQL, MySQL, etc.)
+*.sqlite3
+*.db
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files and error reports
+*.log
+*.pot
+*.pyc
+
+# Ignore configuration files
+*.orig
+*.ini
+*.cfg
+*.conf
+
+# Ignore static and media files (if using Django's default settings)
+static/
+media/
+
+# Ignore sensitive or environment-specific data
+secret_key.py
+.env
+
+# Ignore editor and IDE specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore bytecode files and cache directories for Python 3
+__pycache__/
+__pycache__/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore node modules (if you're using npm or yarn for frontend assets)
+node_modules/
+
+.coverage
